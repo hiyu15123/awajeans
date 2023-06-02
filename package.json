@@ -11,16 +11,16 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.29.3",
-    "browser-sync-webpack-plugin": "^2.3.0",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-imagemin": "^8.0.0",
     "gulp-pug": "^5.0.0",
     "gulp-sass": "^5.1.0",
-    "gulp-uglify": "^3.0.2",
     "gulp-uglify-es": "^3.0.0",
-    "http-server": "^14.1.1",
-    "sass": "^1.62.1",
-    "webpack-cli": "^5.1.1"
+    "sass": "^1.62.1"
+  },
+  "dependencies": {
+    "gsap": "^3.11.5",
+    "three": "^0.153.0"
   }
 }
