@@ -7,7 +7,7 @@ const uglify = require("gulp-uglify-es").default;
 
 gulp.task("sass", function () {
   return gulp
-    .src("src/scss/**/*.scss")
+    .src("src/scss/style.scss")
     .pipe(sass().on("error", sass.logError))
     .pipe(cleanCSS())
     .pipe(gulp.dest("dist/css"))
